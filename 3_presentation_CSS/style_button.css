@@ -1,0 +1,15 @@
+button {
+    background-color: beige;
+    padding: 5px;
+    margin: 5px;
+    width: 60px;
+    border-radius: 5px
+}
+
+#buttonOutsideDiv {
+    border-color: yellow;
+}
+
+.buttonInDiv {
+    font-size: 1rem;
+}
