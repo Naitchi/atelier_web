@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atelier introduction au web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 id="title">Action, Reaction!</h1>
+    <button onclick="window.alert('On m\'a clique dessus!')" id="buttonOutsideDiv">
+        Clique!
+    </button>
+    <h2 id="title">Passe la souris ici</h1>
+
+        <nav>
+            <a href="../3_presentation_CSS/index.html">Previous</a>
+            <a href="../5_presentation_JS/index.html">Next</a>
+        </nav>
+
+        <script>
+            const title = document.getElementById("title");
+
+            title.addEventListener("mouseover", () => {
+                title.style.color = "red";
+            });
+
+            title.addEventListener("mouseout", () => {
+                title.style.color = "black";
+            });
+        </script>
+</body>
+
+</html>

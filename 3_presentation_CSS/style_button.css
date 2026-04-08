@@ -1,4 +1,5 @@
 button {
+    /* Style applique sur des balises */
     background-color: beige;
     padding: 5px;
     margin: 5px;
@@ -7,14 +8,11 @@ button {
 }
 
 #buttonOutsideDiv {
+    /* Style applique sur l'element qui a l'id "buttonOutsideDiv" */
     border-color: yellow;
 }
 
 .buttonInDiv {
+    /* Style applique sur les elements qui ont  la classe "buttonInDiv" */
     font-size: 1rem;
 }
-
-/** 
-TODO faire les commentaires ici
-et finir le style de l'index
-*/
